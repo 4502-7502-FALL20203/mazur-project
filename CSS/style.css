@@ -56,20 +56,21 @@ p ul li a {
 
 }
 
-@media screen and (max-width:720px){
+@media screen and (min-width:480px){
 	body {
 		background-color: mediumpurple;
 }
-}
+	}
 
-@media screen and (max-width:800px){
-.headshot {
+
+@media screen and (min-width:720px){
+.example-image {
 	
 	flex-direction: row !important;
 	margin: 3rem;
-}
-}
 
+}
+}
 
 
 
