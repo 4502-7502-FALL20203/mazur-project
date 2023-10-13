@@ -19,3 +19,13 @@ main {
 	margin: auto;
 	font-size: 1rem;
 }
+
+
+
+.list-picture img{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+
+
+}
