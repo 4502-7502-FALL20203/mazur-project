@@ -20,6 +20,11 @@ main {
 	font-size: 1rem;
 }
 
+h1 {
+	display: flex;
+	justify-content: center;
+
+}
 
 
 .list-picture img{
@@ -27,5 +32,37 @@ main {
 	flex-direction: column;
 	justify-content:center;
 
+
+}
+
+
+@media screen and (max-width: 555px){
+
+body {
+	background-color: white;
+		
+}
+	}
+
+main {
+	width: 100%
+}
+
+img {
+		align-items: center;
+	width: 100%;
+	}
+
+@media screen and (max-width:800px){
+	body{background-color: white;
+	}
+	main {
+	width: 100%
+}
+
+img {
+		align-items: center;
+	width: 100%;
+	}
 
 }
