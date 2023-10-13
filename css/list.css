@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-	background-color: lightgoldenrodyellow;
+	background-color: palegoldenrod;
 	max-width: 1010px;
 	margin: auto;
 	font-size:1em;
@@ -12,3 +12,10 @@ nav {
 	flex-direction: row;
 	justify-content: space-evenly;
 	text-decoration: underline;
+}
+
+main {
+	max-width: 1000px;
+	margin: auto;
+	font-size: 1rem;
+}
