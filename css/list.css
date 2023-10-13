@@ -12,29 +12,55 @@ nav {
 	flex-direction: row;
 	justify-content: space-evenly;
 	text-decoration: underline;
+	font-family: 'Caladea', serif;
 }
 
 main {
 	max-width: 1000px;
 	margin: auto;
 	font-size: 1rem;
+	background-color: aliceblue;
 }
 
 h1 {
 	display: flex;
 	justify-content: center;
+	font-family: 'Caladea', serif;
+	font-size:2em;
 
 }
 
-
-.list-picture img{
+h2 {
 	display: flex;
-	flex-direction: column;
-	justify-content:center;
-
-
+	justify-content: center;
+	font-family: 'Caladea', sans-serif;
+	font-size: 1.5em;
 }
 
+p {
+	display: flex;
+	justify-content: center;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1em;
+}
+
+.list-picture {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-credit {
+	justify-content: flex-end;
+	font-size:0.5em;
+}
+
+footer {
+	
+	background-color: palegoldenrod;
+	max-width: 1000px;
+	font-size: 0.75em;
+}
 
 @media screen and (max-width: 555px){
 
