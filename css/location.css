@@ -1,0 +1,100 @@
+body {
+	background-color: ivory;
+}
+
+nav {
+	background-color: palegoldenrod;
+	max-width: 1010px;
+	margin: auto;
+	font-size:1em;
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	justify-content: space-evenly;
+	text-decoration: underline;
+	font-family: 'Caladea', serif;
+}
+
+main {
+	max-width: 1000px;
+	margin: auto;
+	font-size: 1rem;
+	background-color: aliceblue;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: 'Caladea', serif;
+	font-size:2em;
+
+}
+
+h2 {
+	display: flex;
+	justify-content: flex-start;	
+	font-family: 'Caladea', sans-serif;
+	font-size: 1.5em;
+}
+
+h3 {
+	display: flex;
+	justify-content: flex-start;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1em;
+}
+
+p {
+	display: flex;
+	justify-content: flex-start;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1em; 
+}
+
+footer {
+	display: flex;
+	background-color: palegoldenrod;
+	max-width: 3000px;
+	font-size: 0.75em;
+	justify-content: center;
+}
+
+.text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.location-holder, .media-holder {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
+}
+
+@media (min-width: 555px) {
+
+  .media-holder {
+    flex-direction: row;
+  }
+
+  .text-holder {
+    width: 70%;
+  }
+
+  @media (min-width: 800px) {
+
+ 
+  .text-holder {
+    width: calc(100% - 250px);
+  }
+
+ 
+
+ 
+
