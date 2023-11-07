@@ -59,6 +59,11 @@ footer {
 	justify-content: center;
 }
 
+img {
+		align-items: center;
+	height: 50%;
+	}
+
 .text-holder {
   width: 100%;
   padding: 0;
