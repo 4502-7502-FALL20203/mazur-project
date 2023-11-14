@@ -68,10 +68,10 @@ p ul li a {
 	flex-direction: row;
 }
 
-button_next {  }
-button_previous {  }
+#button_next {  }
+#button_previous {  }
 
-.stepper {  }
+#stepper {  }
 
 button {
 	background-color: orange;
