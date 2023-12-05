@@ -55,6 +55,25 @@ p {
 	font-size:0.5em;
 }
 
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
+  font-size: 2rem;
+}
+
 footer {
 	
 	background-color: palegoldenrod;
