@@ -1,26 +1,24 @@
 
 body {
-	background-color: ivory;
+	background-color: #F6F9FA;
 }
 
 nav {
-	background-color: palegoldenrod;
-	max-width: 1000px;
+	background-color: #D8D7F9;
+	max-width: 3000px;
 	margin: auto;
-	font-size:1em;
+	font-size:1.25em;
 	display: flex;
 	align-items: stretch;
 	flex-direction: row;
 	justify-content: space-evenly;
-	text-decoration: underline;
-}
+	}
 
 main {
 	max-width: 1000px;
 	margin: auto;
-	font-size: 1.2rem;
-	justify-content: center;
-	background-color: aliceblue;
+	font-size: 1rem;
+	background-color: #DEEAFA;
 }
 
 h1 {
@@ -50,17 +48,40 @@ p ul li a {
 }
 
 footer {
-	display: flex;
-	background-color: palegoldenrod;
+
+	background-color: #D8D7F9;
 	max-width: 3000px;
 	font-size: 0.75em;
-	justify-content: center;
+	margin-top: 20px;
+}
+	/*display: flex;
+	background-color: #D8D7F9;
+	max-width: 1000px;
+	font-size: 0.75em;
+	align-items: stretch;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 20px;
+}*/
+
+/*about me css*/
+
+#top {
+	font-size: 48px;
+	font-family: 'Great Vibes', cursive;
+}
+
+.head-script {
+	padding: 30px;
+	padding-bottom: 1px;
+	font-family: 'Redacted Script', cursive;
+	font-size:1.5em;
 }
 
 .headshot {
 	display: flex;
 	justify-content: center;
-	border: none;
+	paddding: 10px;
 }
 
 .skip-link {
@@ -84,14 +105,6 @@ footer {
 
 /*gallery css */
 
-.gallery-example {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-}
-
-
 .button_holder {
 	display: flex;
 	flex-direction: row;
@@ -103,7 +116,9 @@ button_previous {  }
 .stepper {  }
 
 button {
-	background-color: orange;
+	display: flex;
+	justify-content: center;
+	background-color: #BEC1FA;
 	margin: 1rem;
 	padding: 1rem;
 	min-width: 10rem;
@@ -169,6 +184,22 @@ img {
 }
 
 #location-head
+{
+	display: flex;
+	justify-content: flex-start;	
+	font-family: 'Caladea', sans-serif;
+	font-size: 1.5em;
+}
+
+#location-para
+{
+	display: flex;
+	justify-content: flex-start;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1em; 
+}
+
+#location
 {
 	display: flex;
 	justify-content: flex-start;	
