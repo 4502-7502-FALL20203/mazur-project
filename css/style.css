@@ -49,6 +49,14 @@ p ul li a {
 	font-size: 1em;
 }
 
+footer {
+	display: flex;
+	background-color: palegoldenrod;
+	max-width: 3000px;
+	font-size: 0.75em;
+	justify-content: center;
+}
+
 .headshot {
 	display: flex;
 	justify-content: center;
@@ -73,6 +81,8 @@ p ul li a {
   margin: unset;
   font-size: 2rem;
 }
+
+/*gallery css */
 
 .gallery-example {
 	display: flex;
@@ -136,6 +146,34 @@ img {
 .listings2 {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+/*location css*/
+
+.text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.location-holder, .media-holder {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
+}
+
+#location-head
+{
+	display: flex;
+	justify-content: flex-start;	
+	font-family: 'Caladea', sans-serif;
+	font-size: 1.5em;
 }
 
 
