@@ -144,8 +144,8 @@ button {
 
 .gallery-example {
 	margin-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .hideThis {
@@ -216,7 +216,12 @@ img {
 	font-size: 1.5em;
 }
 
+/*list css*/
 
+.list-main{
+	padding-left: 40px;
+	padding-right: 40px;
+}
 
 
 
