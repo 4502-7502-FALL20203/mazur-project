@@ -44,7 +44,7 @@ p {
 
 p ul li a {
 	font-family: 'Oxygen', sans-serif;
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 footer {
@@ -103,11 +103,17 @@ footer {
   font-size: 2rem;
 }
 
+.recent-work {
+	font-size: 30px;
+	font-family: 'Great Vibes', cursive;
+}
+
 /*gallery css */
 
 .button_holder {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
 button_next {  }
@@ -131,11 +137,15 @@ button {
 }
 
 .gallery-image {
-	max-width: 80%;
+	display: flex;
+	justify-content: center;
+	max-height: 50%;
 }
 
-.gallery-image img {
-	width: 100%;
+.gallery-example {
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .hideThis {
@@ -146,7 +156,6 @@ img {
 	display: flex;
 	flex-direction: column;
 	margin: 3rem;
-
 }
 
 .example-image img {
