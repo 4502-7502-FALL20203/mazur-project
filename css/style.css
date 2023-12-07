@@ -26,6 +26,7 @@ h1 {
 	justify-content: center;
 	font-family: 'Caladea', serif;
 	font-size:1.5em;
+	padding-top: 20px;
 }
 
 h2 {
@@ -47,6 +48,12 @@ p ul li a {
 	font-size: 1.5em;
 }
 
+#maincontent {
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
 footer {
 
 	background-color: #D8D7F9;
@@ -54,15 +61,6 @@ footer {
 	font-size: 0.75em;
 	margin-top: 20px;
 }
-	/*display: flex;
-	background-color: #D8D7F9;
-	max-width: 1000px;
-	font-size: 0.75em;
-	align-items: stretch;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin-top: 20px;
-}*/
 
 /*about me css*/
 
@@ -116,11 +114,6 @@ footer {
 	justify-content: center;
 }
 
-button_next {  }
-button_previous {  }
-
-.stepper {  }
-
 button {
 	display: flex;
 	justify-content: center;
@@ -130,10 +123,6 @@ button {
 	min-width: 10rem;
 	font-size: 1.2rem;
 	border-radius: 0.5rem;
-}
-
-.button-start {
-/*	background-color: forestgreen;*/
 }
 
 .gallery-image {
@@ -167,12 +156,7 @@ img {
   	margin: 1rem;
 }
 
-.listings2 {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-/*location css*/
+/*location list css*/
 
 .text-holder {
   width: 100%;
@@ -208,26 +192,31 @@ img {
 	font-size: 1em; 
 }
 
-#location
-{
+.location-links {
+	display: flex;
+	justify-content: flex-start;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*list css*/
+
+.list-picture {
+	display: flex;
+	justify-content: center;
+	max-height: 700px;
+}
+
+.img-credit {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.list-heads {
 	display: flex;
 	justify-content: flex-start;	
 	font-family: 'Caladea', sans-serif;
 	font-size: 1.5em;
 }
-
-/*list css*/
-
-.list-main{
-	padding-left: 40px;
-	padding-right: 40px;
-}
-
-
-
-
-
-
 
 
 @media screen and (max-width: 555px){
