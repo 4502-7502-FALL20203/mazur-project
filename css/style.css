@@ -176,7 +176,7 @@ img {
   box-sizing: border-box;
 }
 
-#location-head
+.location-head
 {
 	display: flex;
 	justify-content: flex-start;	
@@ -184,7 +184,7 @@ img {
 	font-size: 1.5em;
 }
 
-#location-para
+.location-para
 {
 	display: flex;
 	justify-content: flex-start;
